@@ -67,7 +67,7 @@ addstr(("Server IP: "+ServerIP+"\n").c_str());
 addstr(("Info: "+Info+"\n").c_str());
 addstr("\nPress ENTER to write you name and join the chat\n");
 addstr("Press ESC to close program\n");
-addstr("Press TAB to change server IP\n");
+addstr("Press BACKSPACE to change server IP\n");
 refresh();
 }
 }
